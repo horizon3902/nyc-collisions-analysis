@@ -104,7 +104,7 @@ text-align: left;
 </style>
 <div class="footer">
 <p>Developed by <a style='text-align: left;' href="https://github.com/horizon3902/" target="_blank">Kshitij Agarkar</a></p>
-<a style="margin-left: auto" href="https://github.com/horizon3902/movie-recommender-salsa" data-color-scheme="no-preference: dark; light: light; dark: dark;" aria-label="Watch horizon3902/movie-recommender-salsa on GitHub">View on Github</a>
+<a style="margin-left: 75%" href="https://github.com/horizon3902/nyc-collisions-analysis" data-color-scheme="no-preference: dark; light: light; dark: dark;" aria-label="Watch horizon3902/movie-recommender-salsa on GitHub">View on Github</a>
 </div>
 """
 st.markdown(footer,unsafe_allow_html=True)

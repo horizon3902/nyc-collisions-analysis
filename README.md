@@ -9,7 +9,7 @@
 
   1. Clone the repo
 
-  2. Run `pip install requirements.txt` in shell
+  2. Run `pip install -r requirements.txt` in shell
 
   3. Run `streamlit run app.py` in shell
 

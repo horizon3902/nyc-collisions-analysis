@@ -4,6 +4,10 @@ import numpy as np
 import os
 import pydeck as pdk
 import plotly.express as px
+import zipfile as zf
+
+with zf.ZipFile(os.path.join(os.getcwd(),"data","Motor_Vehicle_Collisions_-_Crashes.zip"), 'r') as zip_ref:
+    zip_ref.extractall(os.path.join(os.getcwd(),"data"))
 
 DATA_URL = (os.path.join(os.getcwd(),"data","Motor_Vehicle_Collisions_-_Crashes.csv"))
 
